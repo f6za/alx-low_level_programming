@@ -1,3 +1,7 @@
+/*
+ * File: 6-size.c
+ */
+
 #include <stdio.h>
 
 /**
