@@ -1,14 +1,14 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints _putchar
  *
  * Description: prints _putchar
  *
- * Return: 0
+ * Return: 0 (Success)
  */
 
-Int main ()
+Int main (void)
 {
 	char text[9] = "_putchar";
 	int i = 0;
@@ -18,5 +18,6 @@ Int main ()
 		_putchar(text[i]);
 	}
 	_putchar('\n');
-	Return 0;
+
+	Return (0);
 }
