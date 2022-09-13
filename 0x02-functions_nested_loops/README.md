@@ -1,1 +1,1 @@
-This README lists out some programs that prints certain functions on C
+This is my readme for C program scripts
