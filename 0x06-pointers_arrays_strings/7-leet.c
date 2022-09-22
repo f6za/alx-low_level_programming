@@ -2,6 +2,7 @@
 
 /**
  * leet - encodes a string into 1337
+ *
  * @s: input string.
  * Return: the pointer to dest.
  */
@@ -21,11 +22,10 @@ char *leet(char *s)
 			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 			{
 				*(s + count) = numbers[i];
-				break;
+					break;
 			}	
 		}
 		count++;
 	}
-
 	return (s);
 }
